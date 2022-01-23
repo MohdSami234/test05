@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        label{
+            font-size: 20px; margin-right: 40px;
+        }
+        form{
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        form{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h1>Patients Personal Details</h1>
+    <p>Fill the form below and we will get back soon to you for more updates</p>
+     
+     <label for="name"><b>Full Name</b></label>
+     <input type="text" name="name" placeholder="name" required style="margin-left: 40px;"> 
+     <br>
+     <br>
+     <label for="gender"><b>Gender</b></label>
+     <select required  name="option" style="margin-left: 65px;">
+        <option value="Male" >Male</option>
+        <option value="Female" selected>Female</option>
+        <option value="Other">Other</option>
+     </select>
+     <br>
+     <br>
+
+     <label for="number"><b>Phone Number</b></label>
+     <input type="text" placeholder="Mobile" required name="mobile" maxlength="10">
+     <br>
+     <br>
+     <label for="dob"> <b>Date Of Birth</b></label>
+     <input type="date" name="dob" required style="margin-left: 10px;">
+     <br>
+     <br>
+     <label for="address"><b>Address</b></label>
+     <input type="text" placeholder="  Address" name="address" style="margin-left: 60px;">
+      
+     <input type="text" placeholder=" Address Line 2" name="address ;">
+     <br>
+     <br>
+     <input type="text" placeholder=" City" name="address" style="margin-left: 170px;">
+     <input type="text" placeholder="state" name="address">
+     <br>
+     <br>
+     <label for="email"><b>E-mail Address</b></label>
+     <input type="email" placeholder="ex- myname@gmail.com" name="email">
+     <br>
+     <br>
+     <h3>Please select the Disease</h3>
+     <input type="checkbox" name="disease" value="High Blood Pressure">
+     <label for=" disease">High Blood Pressure</label><br>
+     <input type="checkbox" value="Kidney Disease" name="disease" >
+     <label for=" disease">Kidney Disease</label><br>
+     <input type="checkbox" value="Anemia" name="disease"  >
+     <label for=" disease">Anemia</label><br>
+     <input type="checkbox" value="Diabetes" name="disease" >
+     <label for=" disease">Diabetes</label><br>
+
+     
+     
+     
+     
+
+
+
+     <h3>Have you previously attended our facility</h3>
+      
+     Yes;
+     <input type="radio" name="gender" value="Yes">
+     No:
+     <input type="radio" name="gender" value="No">
+      
+     <br>
+     <br>
+     <br>
+      <h3>If Yes, state on which condition and when?</h3>
+     
+    <textarea cols="30" rows="5"></textarea>
+
+    <br>
+    <br>
+    
+    <input type="submit">
+
+
+
+
+
+
+
+
+
+    </form>
+
+<script src="app.js"></script>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

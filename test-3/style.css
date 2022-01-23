@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#icons{
+    margin-top: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 20px;
+}
+ 
+#middle{
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+#images{
+    margin-top: 90px;
+    margin-right: 200px;
+    border-radius: 50%;
+     
+}
+button,input{
+    height: 60px;
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+ 
